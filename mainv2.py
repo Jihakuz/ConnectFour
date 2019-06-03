@@ -111,7 +111,7 @@ def boardFull(board):
     return ("No one wins")
         
 
-def main():
+if __name__ == "__main__"
     #Setup
     b = initBoard()
     boardPrint(b)
@@ -140,10 +140,5 @@ def main():
         boardPrint(b)
                                                                                                                                                                                                                                                                                                   
         fourCheck(b)
-
-
-main()
-
-
 
 
